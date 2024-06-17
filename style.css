@@ -29,7 +29,7 @@ button {
 }
 
 .add-flashcard-con button {
-  font-size: 1em;
+  font-size: 1.125em; /* Corrected font size */
   background-color: #4caf50; /* Updated color */
   color: #ffffff;
   padding: 0.8em 1.2em;
@@ -119,7 +119,7 @@ textarea:focus {
 }
 
 #save-btn {
-  font-size: 1em;
+  font-size: 1.125em; /* Corrected font size */
   background-color: #4caf50; /* Updated color */
   color: #ffffff;
   padding: 0.6em 0;
