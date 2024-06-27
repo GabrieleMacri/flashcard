@@ -19,7 +19,7 @@
   <body>
     <div class="container">
       <div class="add-flashcard-con">
-        <button id="add-flashcard">Add Flashcard</button>
+        <button id="add-flashcard" aria-label="Add a new flashcard">Add Flashcard</button>
       </div>
 
       <!-- Display Card of Question And Answers Here -->
@@ -34,7 +34,7 @@
       <div class="wrapper">
         <!-- Error message -->
         <div class="error-con">
-          <span class="hide" id="error">Input fields cannot be empty!</span>
+          <span class="hide" id="error" role="alert">Input fields cannot be empty!</span>
         </div>
         <!-- Close Button -->
         <button aria-label="Close" id="close-btn">
@@ -48,6 +48,7 @@
         id="question"
         placeholder="Type the question here..."
         rows="2"
+        aria-labelledby="question"
       ></textarea>
       <label for="answer">Answer:</label>
       <textarea
@@ -55,8 +56,9 @@
         id="answer"
         rows="4"
         placeholder="Type the answer here..."
+        aria-labelledby="answer"
       ></textarea>
-      <button id="save-btn">Save</button>
+      <button id="save-btn" aria-label="Save the flashcard">Save</button>
     </div>
 
     <!-- Script -->
